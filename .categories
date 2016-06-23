@@ -1,5 +1,7 @@
 lang:java
 lang:python
+lang:arduino
+lang:particle
 sku:ADS7828_MCP23017_I2CDIO8OC8AD8
 sku:MCP23008_MCP23017_I2CDIO24
 sku:MCP23017_ANSIO8R245DPDT
