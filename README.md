@@ -8,7 +8,7 @@ This Device is available from ControlEverything.com [SKU: MCP23017_I2CR8G5LE_I2C
 
 https://www.controleverything.com/content/Relay-Controller?sku=MCP23017_I2CR16G5LE_10A
 
-This Sample code can be used with Raspberry pi, Arduino and Particle.
+This Sample code can be used with Raspberry pi, Arduino, Particle and Beaglebone Black. 
 
 ##Java 
 Download and install pi4j library on Raspberry pi. Steps to install pi4j are provided at:
@@ -62,6 +62,18 @@ Verify and flash the code on your Photon. Code output is shown in logs at dashbo
 
 https://dashboard.particle.io/user/logs
 
+## C
+
+Download (or git pull) the code in Beaglebone Black.
+
+Compile the c program.
+```cpp
+$>gcc Sample#.c -o Sample#
+```
+Run the c program.
+```cpp
+$>./Sample#
+```
 
 Sample1 code turns all relays ON at once.
 
