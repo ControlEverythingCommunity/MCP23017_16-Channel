@@ -8,7 +8,7 @@ This Device is available from ControlEverything.com [SKU: MCP23017_I2CR8G5LE_I2C
 
 https://www.controleverything.com/content/Relay-Controller?sku=MCP23017_I2CR16G5LE_10A
 
-This Sample code can be used with Raspberry pi, Arduino, Particle and Beaglebone Black. 
+This Sample code can be used with Raspberry Pi, Arduino, Particle Photon, Beaglebone Black and Onion Omega.
 
 ##Java 
 Download and install pi4j library on Raspberry pi. Steps to install pi4j are provided at:
@@ -75,12 +75,32 @@ Run the c program.
 $>./Sample#
 ```
 
-Sample1 code turns all relays ON at once.
+## Onion Omega
 
-Sample2 code turns all relays ON one by one and then turn all relays OFF one by one. 
+Get Started and setting up the Onion Omega according to steps provided at :
 
-Sample3 code turns pull-up registers high at once.
+https://wiki.onion.io/Get-Started
 
-Sample4 code turns pull-up registers high one by one and then turns pull-up registers low one by one.
+To install the Python module, run the following commands:
+```cpp
+opkg update
+```
+```cpp
+opkg install python-light pyOnionI2C
+```
 
-Sample5 code turns pull-up registers high at once and then turn GPIO pins HIGH and LOW.
+Download (or git pull) the code in Onion Omega. Run the program.
+
+```cpp
+$> python TSL26711.py
+```
+
+#####Sample1 code turns all relays ON at once.
+
+#####Sample2 code turns all relays ON one by one and then turn all relays OFF one by one. 
+
+#####Sample3 code turns pull-up registers high at once.
+
+#####Sample4 code turns pull-up registers high one by one and then turns pull-up registers low one by one.
+
+#####Sample5 code turns pull-up registers high at once and then turn GPIO pins HIGH and LOW.
