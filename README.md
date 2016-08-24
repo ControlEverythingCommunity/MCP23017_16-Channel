@@ -92,7 +92,7 @@ opkg install python-light pyOnionI2C
 Download (or git pull) the code in Onion Omega. Run the program.
 
 ```cpp
-$> python TSL26711.py
+$> python Sample#.py
 ```
 
 #####Sample1 code turns all relays ON at once.
